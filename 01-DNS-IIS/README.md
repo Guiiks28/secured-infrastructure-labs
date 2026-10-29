@@ -18,7 +18,7 @@
 ### 1. Configuration DNS
 1. Création des enregistrements `A` pour `intranet.oclock.lan` et `promo.oclock.lan`.
 2. Création de l'alias `CNAME` : `wiki.oclock.lan` -> `intranet.oclock.lan`.
-3. Création de la zone de recherche inversée `X.168.192.in-addr.arpa` et ajout des enregistrements `PTR`.
+3. Création de la zone de recherche inversée `X.0.10.in-addr.arpa` et ajout des enregistrements `PTR`.
 
 ### 2. Configuration IIS
 1. Suppression du site par défaut (*Default Web Site*).
@@ -30,4 +30,4 @@
 ## 🧪 Validation & Troubleshooting
 - Validation client via `nslookup intranet.oclock.lan`.
 - Purge du cache client si nécessaire : `ipconfig /flushdns`.
-- Test du comportement sur l'IP nue (`http://192.168.X.10`) : Retourne une erreur `400 Bad Request` car aucun en-tête d'hôte ne correspond.
+- Test du comportement sur l'IP nue (`http://10.0.0.10`) : Retourne une erreur `400 Bad Request` car aucun en-tête d'hôte ne correspond.
