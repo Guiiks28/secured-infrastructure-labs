@@ -20,7 +20,7 @@ Ce dépôt rassemble l'ensemble de mes procédures techniques, schémas d'archit
 ## 🛠️ Environnement de Laboratoire
 
 - **Hyperviseur** : Proxmox VE 8.x
-- **Contrôleur de Domaine** : Windows Server 2025 (`WS2026.oclock.lan` - IP: `192.168.X.10`)
+- **Contrôleur de Domaine** : Windows Server 2025 (`WS2026.oclock.lan` - IP: `10.0.0.10`)
 - **Routeur / Pare-feu** : OPNsense
 - **Poste Client** : Windows 11 Enterprise (Client de test en VM)
 
