@@ -10,7 +10,7 @@ Mettre en place une infrastructure de virtualisation de services sous **Windows 
 
 ## 🛠️ Prérequis & Environnement de Lab
 
-- **Serveur** : Windows Server 2025 (`WS2026.oclock.lan` - IP: `192.168.X.10`).
+- **Serveur** : Windows Server 2025 (`WS2026.oclock.lan` - IP: `10.0.0.10`).
 - **Client** : Windows 11 / Client léger de test.
 - **Hyperviseur** : Proxmox VE (utilisé pour la prise de Snapshots).
 - **Domaine AD** : `oclock.lan`.
